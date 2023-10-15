@@ -1,0 +1,22 @@
+baseURL = 'https://bookme.gerritbeine.com/'
+languageCode = 'de-de'
+title = 'Time to meet Gerrit'
+theme = "anubis"
+
+[menu]
+    [[menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "https://gerritbeine.de/"
+        weight = 1
+    [[menu.main]]
+        identifier = "calendar"
+        name = "Calendar"
+        url = "https://calendar.gerritbeine.com/"
+        weight = 2
+
+[params]
+    author = "Gerrit Beine"
+    description = "Plan an appointment with Gerrit"
+    style = "light-without-switcher"
+    menu_item_separator = " - "
